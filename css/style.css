@@ -1,3 +1,5 @@
+/*Begin CSS for general layout & Index.html content area*/
+
 body {
 	font-family: "arial", "helvetica neue", helvetica, sans-serif;
 	background-image: url(../images/topography.png);
@@ -27,7 +29,6 @@ a:link {
 
 .contact-link:hover, .portfolio-link:hover, .about-link:hover {
 	background-color: #4aaaa5;
-	/*display: block;*/
 	color: #ffffff;
 }
 
@@ -129,31 +130,165 @@ footer {
 	text-align: center;
 }
 
-.project-icon {
-	width: 100px;
-	height: 100px;
+/*Begin CSS for Portfolio.html content area*/
+
+div {
+	position: relative;
 }
 
 .project-1 {
+	width: 250px;
+	height: 250px;
 	float: left;
+	margin-right: 50px;
+	margin-bottom: 50px;
+}
+
+.project-1-title {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	text-align: center;
+	padding: 10px;
+	width: 230px;
+	margin-right: 20px;
+	float: left;
+	position: absolute;
+	left: 0px;
+	top: 200px;
 }
 
 .project-2 {
+	width: 250px;
+	height: 250px;
 	float: left;
+	margin-bottom: 50px;
+}
+
+.project-2-title {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	text-align: center;
+	padding: 10px;
+	width: 230px;
+	float: left;
+	position: absolute;
+	right: 30px;
+	top: 200px;
 }
 
 .project-3 {
-	clear: both;
+	width: 250px;
+	height: 250px;
+	float: left;
+	margin-right: 50px;
+	margin-bottom: 50px;
+}
+
+.project-3-title {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	text-align: center;
+	padding: 10px;
+	width: 230px;
+	margin-right: 20px;
+	float: left;
+	position: absolute;
+	left: 0px;
+	top: 468px;
 }
 
 .project-4 {
-	
+	width: 250px;
+	height: 250px;
+	float: left;
+	margin-bottom: 50px;
+}
+
+.project-4-title {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	text-align: center;
+	padding: 10px;
+	width: 230px;
+	float: left;
+	position: absolute;
+	right: 30px;
+	top: 468px;
 }
 
 .project-5 {
-	
+	width: 250px;
+	height: 250px;
+	float: left;
+	margin-right: 50px;
+	margin-bottom: 50px;
+}
+
+.project-5-title {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	text-align: center;
+	padding: 10px;
+	width: 230px;
+	margin-right: 20px;
+	float: left;
+	position: absolute;
+	left: 0px;
+	top: 735px;
 }
 
 .project-6 {
-	
+	width: 250px;
+	height: 250px;
+	float: left;
+	margin-bottom: 50px;
+}
+
+.project-6-title {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	text-align: center;
+	padding: 10px;
+	width: 230px;
+	float: left;
+	position: absolute;
+	right: 30px;
+	top: 735px;
+}
+
+/*Begin CSS for Contact.html content area*/
+
+form {
+	color: #777777;
+	font-weight: bold;
+}
+
+#name {
+	height: 25px;
+	width: 575px;
+	margin-top: 10px;
+	color: #777777;
+}
+
+#email {
+	height: 25px;
+	width: 575px;
+	margin-top: 10px;
+	color: #777777;
+}
+
+#message {
+	padding-bottom: 300px;
+	width: 575px;
+	margin-top: 10px;
+	color: #777777;
+}
+
+#submit-button {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	width: 100px;
+	height: 50px;
 }
