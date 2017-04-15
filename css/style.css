@@ -1,0 +1,159 @@
+body {
+	font-family: "arial", "helvetica neue", helvetica, sans-serif;
+	background-image: url(../images/topography.png);
+}
+
+header {
+	background-color: #ffffff;
+	border-bottom: #cccccc solid 3px;
+	width: 100%;
+	height: 116px;
+}
+
+.logo {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	padding: 39px 80px;
+	float: left;
+	text-align: center;
+	font-size: 40px;
+	margin-left: 190px;
+	font-weight: bold;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+.contact-link:hover, .portfolio-link:hover, .about-link:hover {
+	background-color: #4aaaa5;
+	/*display: block;*/
+	color: #ffffff;
+}
+
+.contact-link, .portfolio-link, .about-link {
+	color: #777777; 
+	float: left;
+	font-size: 18px;
+	padding: 20px;
+	margin-top: 30px;
+}
+
+.portfolio-link {
+	border-right: #777777 solid 1px;
+}
+	
+.about-link {
+	margin-left: 310px;
+	border-right: #777777 solid 1px;
+}
+
+section {
+	clear: both;
+	float: left;
+	background-color: #ffffff;
+	margin: 50px 40px 50px 190px;
+	width: 580px;
+	padding: 35px;
+	border: solid #dddddd 1px;
+}
+
+.page-heading {
+	font-size: 24px;
+	color: #4aaaa5;
+	font-weight: bold;
+	padding-bottom: 25px;
+	clear: both;
+}
+
+#profile-picture{
+	height: 210px;
+	width: auto;
+	padding: 20px 0px;
+	float: left;
+}
+
+/* text to the right of the profile picture */
+.text-content-1 {
+	color: #777777;
+	padding-top: 20px;
+	padding-left: 40px;
+	max-width: 300px;
+	float: left;
+}
+
+/* text below the profile picture */
+.text-content-2 {
+	color: #777777;
+	clear: both;
+}
+
+aside {
+	float: left;
+	margin-top: 50px;
+	width: 220px;
+	background-color: #ffffff;
+	padding: 25px;
+	border: solid 1px #dddddd;
+}
+
+.connect-heading {
+	font-size: 20px;
+	color: #4aaaa5;
+	padding-bottom: 15px;
+	font-weight: bold;	
+}
+
+.github-icon {
+	width: 60px;
+	height: auto;
+}
+
+.linkedin-icon {
+	width: 60px;
+	height: auto;
+	padding:15px 15px 0px 15px;
+}
+
+.stack-icon {
+	width: 60px;
+	height: auto;
+}
+
+footer {
+	clear:both;
+	background-color: #666666;
+	color: #ffffff;
+	border-top: solid #4aaaa5 5px;
+	padding: 58px 0px;
+	text-align: center;
+}
+
+.project-icon {
+	width: 100px;
+	height: 100px;
+}
+
+.project-1 {
+	float: left;
+}
+
+.project-2 {
+	float: left;
+}
+
+.project-3 {
+	clear: both;
+}
+
+.project-4 {
+	
+}
+
+.project-5 {
+	
+}
+
+.project-6 {
+	
+}
